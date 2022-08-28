@@ -1,0 +1,17 @@
+.Commit-container {
+    margin-top: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: 3px 3px #d3d3d357;
+}
+.Commit-messsage {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.Commit-info {
+    padding: 10px
+}
+
+.Commit-date {
+    color: rgb(98, 98, 98)
+}
