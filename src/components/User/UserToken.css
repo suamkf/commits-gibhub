@@ -1,0 +1,11 @@
+.Container {
+      width:450px;
+      display:flex;
+      justify-content: space-between;
+}
+.InputText {
+    width: 300px
+}
+.Alert {
+    margin-top: 10px;
+}

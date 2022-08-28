@@ -34,7 +34,7 @@ const AuthenticationGitHubProvider = ({ children }) => {
     }, [token])
 
     return (
-        <AuthUserContext.Provider value={{ userData, error, token}}>
+        <AuthUserContext.Provider value={{ userData, error, token, setToken}}>
             {children}
         </AuthUserContext.Provider>
     )
