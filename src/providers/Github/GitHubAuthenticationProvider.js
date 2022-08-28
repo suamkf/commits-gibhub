@@ -18,7 +18,7 @@ const AuthenticationGitHubProvider = ({ children }) => {
             }
         })
             .then(({ data }) => { setUserData(data.items.shift()); setError(false) })
-            .catch(error => {
+            .catch(()=> {
                 setUserData({})
                 setError(true)
             })
